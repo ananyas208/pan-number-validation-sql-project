@@ -45,11 +45,11 @@ To build a **data validation framework** in SQL that can:
 
 ## Key Analytical Functions  
 
-#  `fn_check_adjacent_characters(p_str text)`  
+`fn_check_adjacent_characters(p_str text)`  
 Detects repeated adjacent characters (e.g., `AAZPK...` → invalid).  
 Helps prevent artificially generated PANs.
 
-# `fn_check_sequential_char(p_str text)`  
+`fn_check_sequential_char(p_str text)`  
 Identifies sequential characters (e.g., `ABCDE` or `12345`) to flag potentially fake patterns.
 
 ### Regex Validation  
